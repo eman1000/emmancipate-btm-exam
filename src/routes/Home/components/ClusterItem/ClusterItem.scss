@@ -1,0 +1,19 @@
+.clusterItemContainer{
+  padding: 15px;
+  >div{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color: #fff;
+  }
+  span{
+    font-size: 36px;
+  }
+  h4{
+    font-weight: bold;
+  }
+  p{
+    font-size: 14px;
+  }
+}

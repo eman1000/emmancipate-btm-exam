@@ -1,0 +1,25 @@
+.inputItemContainerContainer{
+  >div{
+    padding: 35px;
+    margin: 0;
+
+  }
+}
+.icon{
+  position: absolute;
+  font-size: 30px;
+  cursor: pointer;
+}
+@media(max-width: 767px){
+  .inputItemContainerContainer{
+    >div{
+      text-align: center;
+      span{
+        margin-top: 10px;
+      }
+    }
+  }
+  .icon{
+    position: relative;
+  }
+}
